@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2692ecc9-c2dd-4127-aa2c-11d0dd6b0b6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php.dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php.dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/19.ArrayUnpacking/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/19.ArrayUnpacking/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/5.MatchExpression/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/5.MatchExpression/Test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oU81U8CSddAyboM9cXiS7X2mru" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -131,6 +128,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- add travis file" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add travis file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

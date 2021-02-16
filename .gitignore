@@ -1,1 +1,4 @@
 /src/vendor/
+.idea
+vcs.xml
+workspace.xml
