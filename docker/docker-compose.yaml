@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+# temp services
+#
+# docker-compose run --rm s_service create-project --prefer-dist laravel/laravel . for laravel install
+# docker-compose run --rm s_composer require --dev phpunit/phpunit ^9 - install unit-tests
+  s_composer:
+    build:
+      context: ..
+      dockerfile: docker/s_composer.dockerfile
+    volumes:
+      - ../src:/src
+
+# service for back on php
+# docker-compose build s_run_tests - for build
+# docker-compose run --rm s_run_tests - for run
+  s_run_tests:
+    build:
+      context: ..
+      dockerfile: docker/php.dockerfile
+
+  s_run_tests_without_jit:
+    build:
+      context: ..
+      dockerfile: docker/php_without_jit.dockerfile

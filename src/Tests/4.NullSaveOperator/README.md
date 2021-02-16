@@ -1,0 +1,2 @@
+The null-safe operator allows reading the value of property and method return value chaining, where the null-safe operator short-circuits the retrieval if the value is null, without causing any errors.
+https://php.watch/versions/8.0/null-safe-operator
