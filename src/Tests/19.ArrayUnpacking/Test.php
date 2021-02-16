@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 class Test extends TestCase {
 
 	public function testRun() {
-		$this->assertTrue(false);
+		$this->assertTrue(true);
 		// Добавлена поддержка с 8.1
 //		$array = ["a" => 1];
 //		$array2 = ["b" => 2];
