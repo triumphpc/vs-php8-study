@@ -8,22 +8,35 @@ use Stringable;
 class Test extends TestCase {
 
 	public function testRun() {
-		$str =  <<<'EOD'
-string(6) "123.45"
-string(5) "hello"
-object(Tests\Stringable\A2)#315 (0) {
-}
-string(5) "hello"
+		$result = $this->acceptString(123.45); // string(6) "123.45"
+		$this->assertTrue(is_string($result) && $result === "123.45");
 
-EOD;
-		$this->expectOutputString($str);
+		$result = $this->acceptString(new A2()); // string(5) "hello"
+		$this->assertTrue(is_string($result) && $result === "hello");
+
+//		$result = $this->acceptString2("123.45");
+//		$this->assertTrue(is_string($result) && $result === "123.45");
+
+		$result = $this->acceptString3(new A2());
+		$this->assertTrue(is_string($result) && $result === "hello");
+
+		$result = $this->acceptString2(new A2());
+		$this->assertTrue($result instanceof Stringable);
 
 
-		acceptString(123.45); // string(6) "123.45"
-		acceptString(new A2()); // string(5) "hello"
+	}
 
-//        acceptString2("123.45");
-		acceptString2(new A2());
+
+	function acceptString(string $whatever) {
+		return $whatever;
+	}
+
+	function acceptString2(Stringable $whatever) {
+		return $whatever;
+	}
+
+	function acceptString3(Stringable $whatever) {
+		return (string)$whatever;
 	}
 
 }
@@ -36,11 +49,3 @@ class A2{
 	}
 }
 
-function acceptString(string $whatever) {
-	var_dump($whatever);
-}
-
-function acceptString2(Stringable $whatever) {
-	var_dump($whatever);
-	var_dump((string)$whatever);
-}

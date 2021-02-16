@@ -1,4 +1,4 @@
-FROM php:8-cli-alpine
+FROM php:8
 
 # Переопределеяем настройки jit
 COPY /docker/php/opcache.ini /usr/local/etc/php/conf.d/

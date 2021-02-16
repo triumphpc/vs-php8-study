@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2692ecc9-c2dd-4127-aa2c-11d0dd6b0b6c" name="Default Changelist" comment="" />
+    <list default="true" id="2692ecc9-c2dd-4127-aa2c-11d0dd6b0b6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php.dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php.dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/19.ArrayUnpacking/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/19.ArrayUnpacking/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/5.MatchExpression/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/5.MatchExpression/Test.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/src/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -58,6 +69,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oU81U8CSddAyboM9cXiS7X2mru" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,7 +82,7 @@
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Docker" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Docker" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Tests/18.NumberComparison" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -85,34 +97,34 @@
       <recent name="$PROJECT_DIR$/src/Tests/9.StaticReturnType" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.Test.testRun (1)">
-    <configuration name="Test.testRun (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\ArrayUnpacking\Test" file="$PROJECT_DIR$/src/Tests/19.ArrayUnpacking/Test.php" method="testRun" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.Test.testRun (2)">
+    <configuration name="Test (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Stringable\Test" file="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.testRun (3)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\TrailingComma\Test" file="$PROJECT_DIR$/src/Tests/15.TrailingComma/Test.php" method="testRun" scope="Method" />
+    <configuration name="Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Attributes\Test" file="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.testRun (4)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\StricterTypeCheck\Test" file="$PROJECT_DIR$/src/Tests/16.StricterTypeCheck/Test.php" method="testRun" scope="Method" />
+    <configuration name="Test.testAttribute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Attributes\Test" file="$PROJECT_DIR$/src/Tests/2.Attributes/Test.php" method="testAttribute" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.testRun (5)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\NumberComparison\Test" file="$PROJECT_DIR$/src/Tests/18.NumberComparison/Test.php" method="testRun" scope="Method" />
+    <configuration name="Test.testRun (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Stringable\Test" file="$PROJECT_DIR$/src/Tests/12.StringableInterface/Test.php" method="testRun" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="Test.testRun" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\LinjsProblemExample\Test" file="$PROJECT_DIR$/src/Tests/17.LinksProblemExample/Test.php" method="testRun" scope="Method" />
+      <TestRunner class="Tests\ThrowExpression\Test" file="$PROJECT_DIR$/src/Tests/13.ThrowExpression/Test.php" method="testRun" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.Test.testRun (1)" />
-        <item itemvalue="PHPUnit.Test.testRun (5)" />
+        <item itemvalue="PHPUnit.Test.testRun (2)" />
+        <item itemvalue="PHPUnit.Test (1)" />
+        <item itemvalue="PHPUnit.Test.testAttribute" />
+        <item itemvalue="PHPUnit.Test" />
         <item itemvalue="PHPUnit.Test.testRun" />
-        <item itemvalue="PHPUnit.Test.testRun (4)" />
-        <item itemvalue="PHPUnit.Test.testRun (3)" />
       </list>
     </recent_temporary>
   </component>

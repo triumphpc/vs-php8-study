@@ -25,9 +25,6 @@ class Test extends TestCase
 			$this->assertTrue($attribute->newInstance() instanceof ExampleAttribute );
 		}
 
-		$reflector = new \ReflectionClass(FooTwo::class);
-		$classAttributes = $reflector->getAttributes();
-		$this->assertTrue($classAttributes[0]->newInstance()->getMessage() == "Hi");
 	}
 
 

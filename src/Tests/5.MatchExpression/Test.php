@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Tests\NullSaveOperator;
+namespace Tests\MatchExpression;
 
 use PHPUnit\Framework\TestCase;
 
